@@ -1,0 +1,15 @@
+Step-01: Compile Lex File to generate lex.yy.c file.
+
+flex simplecalc.l
+
+
+
+Step-02: Compile YACC File to generate y.tab.c and y.tab.h file.
+
+bison -d simplecalc.y
+
+
+
+Step-03: Use GCC Compiler to link lex.yy.c and y.tab.c files.
+
+gcc lex.yy.c simplecalc.tab.c -o simplecalc.exe

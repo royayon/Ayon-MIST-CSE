@@ -1,0 +1,39 @@
+Assignment 2:
+
+Task1: 
+Identify keywords: if, else, else if, for, while, int, char, float, double
+
+Task2: 
+Identify functions: For all types of function 
+calling and declarations. 
+
+Task3: 
+Identify identifiers for primitive types:  
+int, char, float
+
+Task4: 
+Identify arithmatic, relational, increment and decrement operators :  
+arithmatic operators : 
++
+-
+*
+/
+%
+
+increment and decrement operators:
+++
+--
+
+relational operators:
+==
+>
+<
+!=
+>=
+<=
+
+Note: First you have to check Keywords in your code. 
+          Do not check Function name before it. 
+          If you check function name before keyword, then if ( ) will be detected as a function name.
+
+Task5: Insert the lexemes into the symbol table. after each insertion print the table in console.

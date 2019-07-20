@@ -1,0 +1,12 @@
+insert into customer values('C00000000001','Arnab','11-JAN-1982','Hatirjhil','Dhaka');
+insert into customer values('C00000000002','Sanjida','22-JAN-1958','Hajrapukur','Rajshahi');
+insert into customer values('C00000000003','Fahim','23-FEB-1962','Hatirjhil','Dhaka');
+insert into customer values('C00000000004','Kona','24-FEB-1964','Hajrapukur','Rajshahi');
+insert into customer values('C00000000005','Afsana','25-OCT-1956','Jhaotola','Potuakhali');
+insert into customer values('C00000000006','Nabila','26-NOV-1982','Ghosh Road','Khulna');
+insert into customer values('C00000000007','Nawshin','27-DEC-1975','Khalispur','Khulna');
+insert into customer values('C00000000008','Maruf','28-MAR-1978','Old Ferry Ghat','Potuakhali');
+insert into customer values('C00000000009','Jahidul','27-MAR-1974','Bakshiganj','Jamalpur');
+insert into customer values('C00000000010','Ferdous','21-APR-1956','Bakshiganj','Jamalpur');
+insert into customer values('C00000000011','Sazzad','21-APR-1974','Nobogram','Barisal');
+insert into customer values('C00000000012','Amir','19-APR-1979','Nabab Road','Khulna');

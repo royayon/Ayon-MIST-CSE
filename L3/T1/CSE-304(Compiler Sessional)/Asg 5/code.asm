@@ -1,0 +1,3 @@
+DATA SEGMENT 
+CODE SEGMENT 
+a db ? 

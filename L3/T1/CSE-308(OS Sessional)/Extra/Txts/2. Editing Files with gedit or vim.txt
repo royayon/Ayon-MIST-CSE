@@ -1,0 +1,110 @@
+ Linux Text Editor:
+-------------------
+ 
+ Windows Text Editor: notepad, notepadd++
+ Linux Text Editor: vi/vim, nano, emac, pico, gedit (GUI)
+
+  Most propular/Advanced Text Editor: Vi/Vim
+        => vi - old, b&w, default
+	=> vim - advanced, colorfull (Package must be installed)
+
+ X = Station No
+ Y = Batch No
+
+ [student@desktopX ~]$ cd
+ [student@desktopX ~]$ mkdir linuxY/lesson04 -p
+ [student@desktopX ~]$ cd linuxY/lesson04
+ [student@desktopX lesson04]$ ls
+ [student@desktopX lesson04]$ touch test  ; create new file
+ [student@desktopX lesson04]$ cp /etc/passwd  .     ; copy passwd file to cureent dir
+ [student@desktopX lesson04]$ ls
+ [student@desktopX lesson04]$ vim file1    ; edit newfile 
+ [student@desktopX lesson04]$ vim test     ; edit existing file with vi
+ [student@desktopX lesson04]$ ls
+  passwd  test
+
+  vi/vim Mode:
+ -------------
+	=> insert mode : press "i" or "insert" button
+        => exit mode : press "esc" button form keyboard
+ 
+ [student@desktopX lesson04]$  vi file1
+      => Press "i" for insert mode
+      => write something as your requirments ; (Hello world !!)
+      => press "esc" button exit from "insert" mode
+      => :x   	  ; save and quit
+
+ [student@desktopX lesson04]$ ls
+ [student@desktopX lesson04]$ cat file1
+  Hello world !!
+
+ [student@desktopX lesson04]$ vim file1
+
+  => Press "i" for insert mode
+  => write "welcome to linux training"
+  => press "esc" quit from insert mode
+  => :w   	  ; only save not quit
+
+  => Press "i" for insert mode
+  => write "goodbye" 
+
+  => :q!  	  ; quit without save
+    
+  [student@desktopX lesson04]$ ls
+  [student@desktopX lesson04]$ cat file1
+  [student@desktopX lesson04]$ vim passwd
+   :set nu
+ 	=> dd  ; one line delete
+ 	=> ndd ; n lines delete
+	=> dw  ; word delete/cut
+	=> dl  ; letter delete 
+	=> shift + d ; cut lines from current cursor position 
+
+	=> yy  ; one line copy
+	=> nyy ; n lines copy
+	=> yw  ; word copy
+ 	=> yl  ; letter copy
+	=> 2yl ; 2 letter copy
+
+	=> p (Paste)  ; p (below), P(above)
+
+	=> shift+g    ; move cursor at last line
+	=> 1+shift+g  ; move cursor at 1st line
+	=> 25+shift+g ; move cursor at 25th line
+	=> ctrl + r ; redo
+	=> u   ; undo 
+	=> o  ; writing (below), O (writing above) 
+		=> /search  (pattern) i.e: /root
+		-> n (next) 
+		-> N (previous)
+	=> :%s/old_keyword/new_keyword/g ; replace old with new word
+	=> :%s/old_keyword/new_newkeyword/gc ; replace old with new word confirmation
+
+  note: all command in "esc" mode
+
+ ======================== Thank you ===================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

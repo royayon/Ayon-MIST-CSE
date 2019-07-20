@@ -1,0 +1,15 @@
+Create table Employee
+(
+	Employee_id	VARCHAR2(12),
+	Employee_name	VARCHAR2(20),
+	Employee_dob	DATE,
+	Employee_street	VARCHAR2(20),
+	Employee_city	VARCHAR2(20),
+	Employee_startdate DATE,
+	Salary		NUMBER(10,3),
+	Manager_id	VARCHAR2(12)
+	
+);
+
+
+

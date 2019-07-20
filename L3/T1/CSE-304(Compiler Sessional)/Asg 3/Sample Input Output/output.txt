@@ -1,0 +1,248 @@
+==>>int main()
+
+<KEYWORD,int> Line Num = 1
+<KEYWORD,main> Line Num = 1
+<PAREN, (> Line Num = 1
+<PAREN, )> Line Num = 1
+
+==>>{
+
+<PAREN, {> Line Num = 2
+
+==>>int choice,i,j,a=5,b=10,c=1,d=2,_oddsum=0,_evensum=0;
+
+<KEYWORD,int> Line Num = 3
+<VARIABLE,choice> Line Num = 3
+<COMMA,,> Line Num = 3
+<VARIABLE,i> Line Num = 3
+<COMMA,,> Line Num = 3
+<VARIABLE,j> Line Num = 3
+<COMMA,,> Line Num = 3
+<VARIABLE,a> Line Num = 3
+<ASSIGNOP,=> Line Num = 3
+<NUMBER,5> Line Num=3
+<COMMA,,> Line Num = 3
+<VARIABLE,b> Line Num = 3
+<ASSIGNOP,=> Line Num = 3
+<NUMBER,10> Line Num=3
+<COMMA,,> Line Num = 3
+<VARIABLE,c> Line Num = 3
+<ASSIGNOP,=> Line Num = 3
+<NUMBER,1> Line Num=3
+<COMMA,,> Line Num = 3
+<VARIABLE,d> Line Num = 3
+<ASSIGNOP,=> Line Num = 3
+<NUMBER,2> Line Num=3
+<COMMA,,> Line Num = 3
+<VARIABLE,_oddsum> Line Num = 3
+<ASSIGNOP,=> Line Num = 3
+<NUMBER,0> Line Num=3
+<COMMA,,> Line Num = 3
+<VARIABLE,_evensum> Line Num = 3
+<ASSIGNOP,=> Line Num = 3
+<NUMBER,0> Line Num=3
+<SEMICOLON, ;> Line Num=3
+
+==>>float num1=3.1416;
+
+<KEYWORD,float> Line Num = 4
+<VARIABLE,num1> Line Num = 4
+<ASSIGNOP,=> Line Num = 4
+<NUMBER,3.1416> Line Num=4
+<SEMICOLON, ;> Line Num=4
+
+==>>double num2=3.15E-2;
+
+<KEYWORD,double> Line Num = 5
+<VARIABLE,num2> Line Num = 5
+<ASSIGNOP,=> Line Num = 5
+<NUMBER,3.15E-2> Line Num=5
+<SEMICOLON, ;> Line Num=5
+
+==>>switch(choice)
+
+<KEYWORD,switch> Line NUM = 6
+<PAREN, (> Line Num = 6
+<VARIABLE,choice> Line NUM = 6
+<PAREN, )> Line Num = 6
+
+==>>{
+
+<CURL,{> Line NUM = 7
+
+==>>case 1:
+
+<KEYWORD,case> Line NUM = 8
+<NUM,1> Line NUM = 8
+<COLON,:> Line NUM = 8
+
+==>>int res;
+
+<KEYWORD,int> Line NUM = 9
+<VARIABLE,res> Line NUM = 9
+<SEMICOLON, ;> Line Num=9
+
+==>>res=(a+b-c)*(d/2);
+
+<VARIABLE,res> Line NUM = 10
+<ASSIGNOP,=> Line Num = 10
+<PAREN, (> Line Num = 10
+<VARIABLE,a> Line NUM = 10
+<ARITHMETIC,+> Line NUM = 10
+<VARIABLE,b> Line NUM = 10
+<ARITHMETIC,-> Line NUM = 10
+<VARIABLE,c> Line NUM = 10
+<PAREN, )> Line Num = 10
+<ARITHMETIC,*> Line NUM = 10
+<PAREN, (> Line Num = 10
+<VARIABLE,d> Line NUM = 10
+<ARITHMETIC,/> Line NUM = 10
+<NUM,2> Line NUM = 10
+<PAREN, )> Line Num = 10
+<SEMICOLON, ;> Line Num=10
+
+==>>break;
+
+<KEYWORD,break> Line NUM = 11
+<SEMICOLON, ;> Line Num=11
+
+==>>case 2:
+
+<KEYWORD,case> Line NUM = 12
+<NUM,2> Line NUM = 12
+<COLON,:> Line NUM = 12
+
+==>>for(i=1;i<=100;i++)
+
+<KEYWORD,for> Line Num=13
+<PAREN,(> Line Num=13
+<VARIABLE,i> Line NUM = 13
+<ASSIGNOP,=> Line Num = 13
+<NUM,1> Line NUM = 13
+<SEMICOLON, ;> Line Num=13
+<VARIABLE,i> Line NUM = 13
+<RELOP,<=> Line Num = 13
+<NUM,100> Line NUM = 13
+<SEMICOLON, ;> Line Num=13
+<VARIABLE,i> Line NUM = 13
+<INC,++> Line Num = 13
+<PAREN,)> Line Num=13
+
+==>>{
+
+<CURL,{> Line NUM = 14
+
+==>>if(i%2!=0)
+
+<KEYWORD,if> Line Num=15
+<PAREN,(> Line Num=15
+<VARIABLE,i> Line NUM = 15
+<ARITHMETIC,%> Line Num = 15
+<NUM,2> Line NUM = 15
+<RELOP,!=> Line Num = 15
+<NUM,0> Line NUM = 15
+<PAREN,)> Line Num=15
+
+==>>_oddsum=_oddsum+i;
+
+<VARIABLE,_oddsum> Line NUM = 16
+<ASSIGNOP,=> Line Num = 16
+<VARIABLE,_oddsum> Line NUM = 16
+<ARITHMETIC,+> Line Num = 16
+<VARIABLE,i> Line NUM = 16
+<SEMICOLON,;> Line Num = 16
+
+==>>else if(i%2==0)
+
+<KEYWORD,else_if> Line Num=17
+<PAREN,(> Line Num=17
+<VARIABLE,i> Line NUM = 17
+<ARITHMETIC,%> Line Num = 17
+<NUM,2> Line NUM = 17
+<RELOP,==> Line Num = 17
+<NUM,0> Line NUM = 17
+<PAREN,)> Line Num=17
+
+==>>_evensum=_evensum+i;
+
+<VARIABLE,_evensum> Line NUM = 18
+<ASSIGNOP,=> Line Num = 18
+<VARIABLE,_evensum> Line NUM = 18
+<ARITHMETIC,+> Line Num = 18
+<VARIABLE,i> Line NUM = 18
+<SEMICOLON,;> Line Num = 18
+
+==>>}
+
+<CURL,}> Line NUM = 19
+
+==>>break;
+
+<KEYWORD,break> Line NUM = 20
+<SEMICOLON,;> Line Num = 20
+
+==>>case 3:
+
+<KEYWORD,case> Line NUM = 21
+<NUM,3> Line NUM = 21
+<COLON,:> Line NUM = 21
+
+==>>j=10;
+
+<VARIABLE,j> Line Num = 22
+<ASSIGNOP,=> Line Num = 22
+<NUMBER,10> Line Num=22
+<SEMICOLON, ;> Line Num=22
+
+==>>while(j>=1 && j<=10)
+
+<KEYWORD,while> Line Num=23
+<PAREN,(> Line Num=23
+<VARIABLE,j> Line Num = 23
+<RELOP,>=> Line Num = 23
+<NUMBER,1> Line Num=23
+<LOGICALOP,&&> Line Num=23
+<VARIABLE,j> Line Num = 23
+<RELOP,<=> Line Num = 23
+<NUMBER,10> Line Num=23
+<PAREN,)> Line Num=23
+
+==>>{
+
+<CURL,{> Line NUM = 24
+
+==>>j--;
+
+<VARIABLE,j> Line Num = 25
+<DEC,--> Line Num = 25
+<SEMICOLON, ;> Line Num=25
+
+==>>}
+
+<CURL,}> Line NUM =26
+
+==>>break;
+
+<KEYWORD,break> Line NUM = 27
+<SEMICOLON,;> Line Num = 27
+
+==>>default:
+
+<KEYWORD,default> Line NUM = 28
+<SEMICOLON,;> Line Num = 28
+
+==>>prinf("Wrong Input");
+
+<KEYWORD,printf> Line Num=29
+<PAREN,(> Line Num=29
+<STRINGLITERAL,Wrong Input> Line Num=29
+<PAREN,)> Line Num=29
+<SEMICOLON,;> Line Num = 29
+
+==>>}
+
+<CURL,}> Line NUM =30
+
+==>>}
+
+<CURL,}> Line NUM = 31

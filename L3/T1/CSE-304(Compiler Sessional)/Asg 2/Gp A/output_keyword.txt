@@ -1,0 +1,12 @@
+void  2
+int  2
+int  3
+for  5
+for  7
+if  9
+break  10
+if  12
+int  20
+int  22
+if  27
+return  34

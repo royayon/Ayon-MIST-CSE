@@ -1,0 +1,4 @@
+flex -t sample.l  > sample.c
+gcc -c sample.c
+gcc sample.o -o sample.exe
+sample.exe

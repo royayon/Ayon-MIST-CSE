@@ -1,0 +1,8 @@
+prime  2
+printf  14
+main  20
+printf  24
+scanf  25
+printf  29
+printf  30
+prime  32
